@@ -1,0 +1,108 @@
+main {
+    padding-top: 60px;
+    background-image: url(../img/create_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+}
+
+p {
+    position: relative;
+}
+
+#success {
+    text-align: center;
+    color: rgb(30, 205, 30);
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+#new-card-create-wrap a {
+    color: #3ca9e2;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+#new-card-create-wrap {
+    background-color: #ffffff;
+    width: 35%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 20px 0 0 0;
+    border-radius: 8px;
+    border: #974c82de solid 2px;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+#new-card-create-form {
+    padding: 0 60px;
+}
+
+label {
+    margin-top: 8px;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px;
+    padding: 0 0 0 10px;
+    margin: 0;
+    color: #000000;
+    border: 1px solid #a8a7aa;
+    font-style: normal;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    display: inline-block;
+    background: none;
+}
+
+textarea {
+    color: #8a8b8e !important;
+    border: 1px solid #c2c0ca !important;
+    font-style: normal;
+    font-size: 16px;
+}
+
+textarea:focus {
+    color: #8a8b8e !important;
+    border: 1px solid #c2c0ca !important;
+    box-shadow: none !important;
+}
+
+.type {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none !important;
+    background-color: var(--clr-main) !important;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+}
+
+button:hover {
+    background-color: var(--clr-highlight) !important;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}

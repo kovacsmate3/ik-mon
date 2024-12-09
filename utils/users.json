@@ -1,0 +1,26 @@
+{
+    "65a307c8e92a1": {
+        "username": "admin",
+        "email": "admin@adminmail.hu",
+        "password": "$2y$10$gK1Bg3TdGG4TMLf0DuaRCuFpGlotm7byzL.3XDBqaS04ofHmFiiqW",
+        "balance": "Unlimited",
+        "admin_permission": true,
+        "id": "65a307c8e92a1"
+    },
+    "65a6933d6a9bf": {
+        "username": "user",
+        "email": "user@usermail.hu",
+        "password": "$2y$10$\/yIt.Kc8f\/sLkC.ekT.Qgey3HSuVheiCsED.AGAJjyOCUTgb6mojm",
+        "balance": 223,
+        "admin_permission": false,
+        "id": "65a6933d6a9bf"
+    },
+    "65a6951c52c47": {
+        "username": "nft_seller1",
+        "email": "nftseller01@gmail.com",
+        "password": "$2y$10$6N6tcGimDpq9ikVkW8Ts.ODbPB1ysgXoTaIUoVOn3NJRtU5jAY\/im",
+        "balance": 228,
+        "admin_permission": false,
+        "id": "65a6951c52c47"
+    }
+}

@@ -1,0 +1,38 @@
+#user_details {
+    margin-top: 80px;
+    max-width: 90%;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profile {
+    max-width: 75%;
+}
+
+#profile_data {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.data {
+    font-weight: bold;
+    color: black;
+}
+
+#permissions {
+    color: var(--bs-secondary-color);
+}
+
+.bordered {
+    border: 1px solid var(--clr-main);
+}
+
+#information {
+    text-decoration: underline;
+}
+
+#owned_cards {
+    border: 1.5px solid var(--clr-main);
+    opacity: 1;
+}

@@ -1,0 +1,43 @@
+#detailedCard {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+span.normal, span.fire, span.water, span.electric, span.grass, span.ice, span.fighting, span.poison, 
+span.ground, span.psychic, span.bug, span.rock, span.ghost, span.dark, span.steel {
+    text-shadow: 3px 1px 2px rgba(0,0,0,0.85);
+}
+
+#details {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 75%;
+}
+
+#details .image {
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#details img {
+    height: auto;
+    max-width: 80%;
+}
+
+#details .info {
+    padding: 10px;
+}
+
+.description {
+    margin-bottom: 10px;
+}

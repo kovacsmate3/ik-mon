@@ -1,0 +1,15 @@
+-----Bejelentkezési adatok-----
+1.) admin
+E-mail cím: admin@adminmail.hu
+Felhasználónév: admin
+Jelszó: admin
+
+2.) user
+E-mail cím: user@usermail.hu
+Felhasználónév: user
+Jelszó: user01
+
+3.) nft_seller1
+E-mail cím: nftseller01@gmail.com
+Felhasználónév: nft_seller1
+Jelszó: theBOSS

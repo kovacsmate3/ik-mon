@@ -1,0 +1,120 @@
+#login_bg_container {
+    background-image: url(../img/login_bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    position: relative;
+}
+
+#failed_login {
+    text-align: center;
+    color: red;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+#login-form-wrap a {
+    color: #329dd5;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+#login-form-wrap {
+    background-color: #fff;
+    width: 35%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+    padding: 20px 0 0 0;
+    border-radius: 4px;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+#login-form {
+    padding: 0 60px;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0 0 0 10px;
+    margin: 0;
+    color: black;
+    border: 1px solid #c2c0ca;
+    font-style: normal;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    display: inline-block;
+    background: none;
+}
+
+input[type="submit"] {
+    border: none;
+    display: block;
+    background-color: var(--clr-main);
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--clr-highlight);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+#create-account-wrap {
+    margin-top: 15px;
+    background-color: #eeedf1;
+    color: #8a8b8e;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0 0 4px 4px;
+}
+
+#create-account-wrap p {
+    margin: 0;
+}
+
+#create-account-wrap a {
+    color: var(--clr-main) !important;
+}
+
+#create-account-wrap a:hover {
+    color: var(--clr-highlight) !important;
+}
+
+#register {
+    text-align: center !important;
+}
